@@ -51,3 +51,9 @@
 # - EXE - C:\Users\jdele\OneDrive - Florida International University\Documents\Home Workouts Made Easy> npm start
 
 # and boom it should work if you installed
+
+# ------------------------------------------------------------------------
+
+# link to using react
+
+# https://code.visualstudio.com/docs/nodejs/reactjs-tutorial
