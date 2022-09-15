@@ -44,7 +44,7 @@
 
 # 2. select the client folder that is inside of the H.W.M.E. folder like this
 
-# - EXE - C:\Users\jdele\OneDrive - Florida International University\Documents\Home Workouts Made Easy\client
+# - EXE - C:\Users\jdele\OneDrive - Florida International University\Documents\Home Workouts Made Easy> cd client
 
 # 3. next command in the terminal is npm start
 
