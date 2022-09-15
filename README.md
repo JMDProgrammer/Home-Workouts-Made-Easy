@@ -1,8 +1,6 @@
 # Home-Workouts-Made-Easy
 
-# testing readMeFile
-
-# Another test
+# might delete files outside of the client folder.... no idea yet
 
 # Another change from main to branch test
 
@@ -10,7 +8,7 @@
 
 # .......................................................................
 
-# ReactJs Installation Tutorial on Windows 10 - react.js setup in vs code tutorial 2020
+# ReactJs Installation Tutorial on Windows 10 - react.js setup in VS code tutorial 2020
 
 # https://www.youtube.com/watch?v=C6-VVTlOCcU
 
@@ -20,4 +18,36 @@
 
 # https://www.youtube.com/playlist?list=PLJ9yA790AcSkHba3Dsn2YgDeLngDBa8R-
 
-# might delete files outside of the client folder.... no idea yet
+# ----------------------------------------------------------------------
+
+# link to install node.js
+
+# https://nodejs.org/en/
+
+# ----------------------------------------------------------------------
+
+# important plugins installed
+
+# ESLint
+
+# JavaScript (ES6 code snippets)
+
+# Auto Rename Tag
+
+# Auto Close Tag
+
+# ----------------------------------------------------------------------
+
+# here is how to run it:
+
+# 1. open up terminal in vs located in the top handle between run and help
+
+# 2. select the client folder that is inside of the H.W.M.E. folder like this
+
+# - EXE - C:\Users\jdele\OneDrive - Florida International University\Documents\Home Workouts Made Easy\client
+
+# 3. next command in the terminal is npm start
+
+# - EXE - C:\Users\jdele\OneDrive - Florida International University\Documents\Home Workouts Made Easy> npm start
+
+# and boom it should work if you installed
