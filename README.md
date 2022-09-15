@@ -18,6 +18,8 @@
 
 # https://www.youtube.com/playlist?list=PLJ9yA790AcSkHba3Dsn2YgDeLngDBa8R-
 
+# NOTE: you do not need to install the dependencies, I have already done that.
+
 # ----------------------------------------------------------------------
 
 # link to install node.js
