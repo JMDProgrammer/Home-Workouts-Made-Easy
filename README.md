@@ -26,7 +26,7 @@
 
 # ----------------------------------------------------------------------
 
-# important plugins installed
+# Good plugins to install on vs code
 
 # ESLint
 
