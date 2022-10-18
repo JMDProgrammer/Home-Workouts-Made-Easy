@@ -28,7 +28,17 @@ https://www.youtube.com/watch?v=Hl7diL7SFw8&t=992s
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "mysql2": "^2.3.3"
-    
+
     timestamp 8:36
+
+so far, up to line 17, if you want to test whether or not the server is running:
+command:
+node index.js
+//this will list the server running on whatever port you told it to run on
+
+quit out of the server:
+crtl + C
+
+
 
 
