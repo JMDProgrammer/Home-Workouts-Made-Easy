@@ -16,5 +16,5 @@ app.listen(3001, () => {
   //TO TEST THIS CODE ----> node index.js
   console.log("server running on port 3001");
   //can also test this by putting this into google chrome's search bar:
-  //                                            http://localhost:3001/
+  //      http://localhost:3001/
 });

@@ -50,3 +50,7 @@ crtl + C
     -   open workbench
     Timestamp 14:00 min
 
+6. connecting the server with the react app
+    using an orm that is called sequelize
+    To install orm (installing 2 packages):
+    npm install sequelize sequelize-cli
