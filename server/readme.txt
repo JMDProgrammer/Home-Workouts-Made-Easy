@@ -46,6 +46,6 @@ crtl + C
     to make it work, all you have to do is go to the package.json and add:
     "start": "nodemon index.js"
 
-
+5. now connectiong the database to the project
 
 
