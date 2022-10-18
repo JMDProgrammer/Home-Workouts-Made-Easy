@@ -20,6 +20,10 @@
 
 # NOTE: you do not need to install the dependencies, I have already done that.
 
+# you just need to install the npm package with this command:
+
+# npm install
+
 # ----------------------------------------------------------------------
 
 # link to install node.js
