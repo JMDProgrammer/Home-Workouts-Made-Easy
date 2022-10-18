@@ -47,5 +47,6 @@ crtl + C
     "start": "nodemon index.js"
 
 5. now connectiong the database to the project
-
+    -   open workbench
+    Timestamp 14:00 min
 
