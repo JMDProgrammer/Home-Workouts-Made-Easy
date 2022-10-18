@@ -18,5 +18,17 @@ https://www.youtube.com/watch?v=Hl7diL7SFw8&t=992s
     npm install express
 
 3. other things to install inside of the server folder:
-    npm install express cors
+    allows us to create a conection with our front end and server
+    ----npm install express cors----
+    and then installing the package for to use the database, mysql2
+    command to do this:
+    npm install express cors mysql2
+
+    - files now appear in our package.json files
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3"
+    
+    timestamp 8:36
+
 
