@@ -39,6 +39,13 @@ node index.js
 quit out of the server:
 crtl + C
 
+4. now installing another dependency:
+    command inside of the terminal:
+        node index.js
+    will restart the server every time you save. which is really nice apparently.
+    to make it work, all you have to do is go to the package.json and add:
+    "start": "nodemon index.js"
+
 
 
 
