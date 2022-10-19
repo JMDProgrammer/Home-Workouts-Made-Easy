@@ -65,8 +65,34 @@ crtl + C
         https://www.youtube.com/watch?v=Crk_5Xy8GMA
 
 7. deleted the seeders and migrations folder
+    -   not necessary to have these folders
 
 8. creating a table in the server > models folder
     -   created a Users.js file
-    
+
+9. creating an anonomus function that is going to create that model and export it from this file so that we have access to it in other filkes
+    -   module.exports = 
+        -   equates to whatever you want to exports
+        -   should take two args
+            1. sequelize 
+            2. DataTypes
+    -   module.exports = (sequelize, DataTypes) => {
+        //create variables
+    }
+
+10. the index.js file within the modules folder converts all files in the models folder into different tables
+
+11. how to make the tables appear in the database (import them):
+    -   you write code in the index.js file that is outside of the models folder  but inside the server folder
+    -   const db = require('./models')
+
+12. how to get this program to recognize the database?
+    > server folder
+        > config folder
+            > config.json
+            -   where in the development area there is a 
+            -   username
+            -   password "null" "" or "password" 
+            -   database 
+            -   host : can use the address or "localhost" 
 
