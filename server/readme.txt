@@ -54,7 +54,10 @@ crtl + C
     using an orm that is called sequelize
     you probably need to make this a global isntall
     To install orm (installing 2 packages):
-    npm install -g sequelize sequelize-cli
+    ---->>>>npm install -g sequelize sequelize-cli<<<<----
+                    or
+    ---->>>>npm install sequelize sequelize-cli<<<<----
+
         then go to the terminal inside of the server folder and enter:
             sequelize init
     this will allow everything to be much easier
@@ -96,3 +99,6 @@ crtl + C
             -   database 
             -   host : can use the address or "localhost" 
 
+13. after all of this is done 
+    - start it in the server folder
+    - npm start
