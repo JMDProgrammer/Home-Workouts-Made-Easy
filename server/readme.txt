@@ -52,5 +52,9 @@ crtl + C
 
 6. connecting the server with the react app
     using an orm that is called sequelize
+    you probably need to make this a global isntall
     To install orm (installing 2 packages):
-    npm install sequelize sequelize-cli
+    npm install -g sequelize sequelize-cli
+        then go to the terminal inside of the server folder and enter:
+            sequelize init
+    this will allow everything to be much easier
