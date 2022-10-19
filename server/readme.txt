@@ -58,3 +58,15 @@ crtl + C
         then go to the terminal inside of the server folder and enter:
             sequelize init
     this will allow everything to be much easier
+        - by making our code a lot better
+        - by using orm it makes everything easier to look at 
+        - also makes it more secure
+-----> how to use sequelize tutorial by the same guy <------
+        https://www.youtube.com/watch?v=Crk_5Xy8GMA
+
+7. deleted the seeders and migrations folder
+
+8. creating a table in the server > models folder
+    -   created a Users.js file
+    
+
