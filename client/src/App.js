@@ -2,7 +2,7 @@
 
 import './App.css';
 import Axios from 'axios';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import e from 'cors';
 
 function App() {
@@ -14,6 +14,8 @@ function App() {
   const[password, setPassword] = useState('')
 
   const [loginStatus, setLoginStatus] = useState('')
+
+Axios.defaults.withCredentials = true;
 
 //axios req
   const register = () => {
@@ -36,6 +38,14 @@ function App() {
     console.log(response.data);
   });
 }
+
+  useEffect(()=> {
+    Axios.get("http://localhost:3001/login").then((response) => {
+      if(response.data.loggedInd == true){
+      {setLoginStatus(response.data.user[0].username)};
+      }
+    });
+  }, []);
 
 
   return (
@@ -71,7 +81,7 @@ function App() {
 
       </div>
 
-    <h1>loginStatus</h1>
+    <h1> loginStatus </h1>
 
     </div>
   );
