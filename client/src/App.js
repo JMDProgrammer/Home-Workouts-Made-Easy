@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+//import Test from "./Components/Test";
 
 function App() {
+  const username = "pedro123";
+  const password = "password";
+
+  const [usernameState, setUsernameState] = useState("");
+  const [passwordState, setPaswordState] = useState("");
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  function login() {
+    if (usernameState === username && passwordState === password)
+      setLoggedIn(true);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Login</h1>
+      <input
+        type="text"
+        onChange={(event) => {
+          setUsernameState(event.target.value);
+        }}
+      />
+      <input
+        type="password"
+        onChange={(event) => {
+          setPaswordState(event.target.value);
+          console.log(event.target.value);
+        }}
+      />
+      <button onClick={login}>Submit</button>
+      {loggedIn && <h1>Logged In</h1>}
     </div>
   );
 }
