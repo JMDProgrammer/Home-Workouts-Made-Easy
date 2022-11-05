@@ -13,6 +13,13 @@ const app = express();
 //will go over every model that we ever created
 const db = require("./models");
 
+//initial routes
+//req = required
+//res = response
+app.get("/", (req, res) => {
+  res.send("hello justin");
+});
+
 //.then is a promise
 db.sequelize.sync().then(() => {
   //this is the entry point for our api

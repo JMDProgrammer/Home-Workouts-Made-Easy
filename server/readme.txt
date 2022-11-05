@@ -102,3 +102,13 @@ crtl + C
 13. after all of this is done 
     - start it in the server folder
     - npm start
+
+14. installed body-parser and mysql
+    - npm install body-parser
+    - npm install mysql
+
+15. added a devstart option to the package.json file
+    - to run:
+        npm run devStart
+
+16. 
