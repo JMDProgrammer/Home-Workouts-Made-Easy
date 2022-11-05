@@ -1,3 +1,4 @@
+/*
 //will be used to access types inside of sequelize
 module.exports = (sequelize, DataTypes) => {
   //defines the table as Posts
@@ -19,3 +20,4 @@ module.exports = (sequelize, DataTypes) => {
   //returning the object that we just created
   return Posts;
 };
+*/

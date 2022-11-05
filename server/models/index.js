@@ -1,5 +1,6 @@
 //this index file will automatically get every file i create underneath it, and
 //identify them as a table
+/*
 "use strict";
 
 const fs = require("fs");
@@ -47,3 +48,4 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
+*/

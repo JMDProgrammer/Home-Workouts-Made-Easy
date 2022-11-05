@@ -102,3 +102,57 @@ crtl + C
 13. after all of this is done 
     - start it in the server folder
     - npm start
+
+
+
+
+14{placeholder}
+  return (
+    //registration and login section
+    <div className="App">
+      <div className="Registration">
+        <h1>Registration</h1>
+        <label>Username</label>
+        <input
+          type="text"
+          onChange={(e) => {
+            setUsernameReg(e.target.value);
+          }}
+        />
+
+        <label>Password</label>
+        <input
+          type="text"
+          onChange={(e) => {
+            setPasswordReg(e.target.value);
+          }}
+        />
+
+        <button onClick={register}>Register</button>
+      </div>
+      <div className="Login">
+        <h1>Login</h1>
+        <label>Username</label>
+        <input
+          type="text"
+          placeholder="Username..."
+          onChange={(e) => {
+            setUsername(e.target.value);
+          }}
+        />
+
+        <label>Password</label>
+        <input
+          type="text"
+          placeholder="Password..."
+          onChange={(e) => {
+            setPassword(e.target.value);
+          }}
+        />
+
+        <button onClick={login}>Login</button>
+      </div>
+      <h1> loginStatus </h1>
+      */
+    </div>
+  );
